@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(wall.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-sizing: inherit;
+    line-height: 1.5;
+}
+#title{
+    text-align: center;
+    height: 100px;
+    font-size: 50pt;
+    text-shadow: 50px;
+}
+#leftBar{
+    text-align: left;
+    font-size: 20pt;
+    width: 10%;
+    height: 800px;
+    float: left;
+    display: block
+}
+#rightBar{
+    text-align: center;
+    width: 90%;
+    height: 800px;
+    float: right;
+    font-size: 50pt ;
+}
+#bottomBar{
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    float: unset;
+    clear: both;
+}
